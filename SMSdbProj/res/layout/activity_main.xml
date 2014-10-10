@@ -4,4 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.smsdbproj.MainActivity"
-    tools:ignore="MergeRootFrame" />
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </RelativeLayout>
+
+</FrameLayout>
